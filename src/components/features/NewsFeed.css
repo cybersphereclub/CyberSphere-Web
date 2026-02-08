@@ -1,0 +1,128 @@
+.news-feed {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+}
+
+.news-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--color-steel-white);
+}
+
+.news-icon {
+    color: var(--color-threat-red);
+}
+
+.live-indicator {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--color-threat-red);
+    animation: pulse 2s infinite;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.news-item {
+    border-left: 3px solid transparent;
+    padding: 1.25rem;
+}
+
+.severity-critical {
+    border-left-color: #ff0000;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.severity-high {
+    border-left-color: var(--color-threat-red);
+}
+
+.severity-medium {
+    border-left-color: var(--color-electric-purple);
+}
+
+.severity-low {
+    border-left-color: var(--color-cyber-blue);
+}
+
+.news-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+}
+
+.news-source {
+    color: var(--color-cyber-blue);
+    font-weight: 600;
+}
+
+.news-title {
+    font-size: 1.1rem;
+    color: var(--color-steel-white);
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.news-summary {
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin-bottom: 1rem;
+}
+
+.news-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.85rem;
+    color: var(--color-cyber-blue);
+    font-weight: 500;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+}
+
+.view-all-btn {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.threat-map-container {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.1);
+}

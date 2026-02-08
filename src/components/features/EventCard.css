@@ -1,0 +1,122 @@
+.event-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+}
+
+.event-image-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.event-card:hover .event-image {
+    transform: scale(1.1);
+}
+
+.event-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 60%, var(--bg-deep-space));
+}
+
+.event-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--color-cyber-blue);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(93, 93, 255, 0.4);
+}
+
+.event-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.event-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--color-steel-white);
+}
+
+.event-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #94a3b8;
+    font-size: 0.85rem;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.event-description {
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.event-countdown {
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.countdown-label {
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--color-cyber-blue);
+    margin-bottom: 0.5rem;
+}
+
+.event-btn {
+    width: 100%;
+    margin-top: auto;
+}
+
+.event-past {
+    filter: grayscale(0.8);
+    opacity: 0.8;
+}
+
+.event-past:hover {
+    filter: grayscale(0.4);
+    opacity: 1;
+}
+
+.badge-past {
+    background: #64748b;
+    box-shadow: none;
+}
+
+.event-ended-msg {
+    text-align: center;
+    color: #ef4444;
+    font-weight: 600;
+    margin-top: auto;
+    padding: 0.75rem 0;
+}

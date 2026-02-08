@@ -1,0 +1,67 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+/* Sizes */
+.btn-sm {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+.btn-md {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+}
+
+.btn-lg {
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+}
+
+/* Variants */
+.btn-primary {
+    background: var(--color-cyber-blue);
+    color: white;
+    border-color: var(--color-cyber-blue);
+    box-shadow: 0 0 10px rgba(93, 93, 255, 0.3);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--color-cyber-blue);
+    box-shadow: 0 0 20px rgba(93, 93, 255, 0.6);
+    text-shadow: 0 0 5px rgba(93, 93, 255, 0.4);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--color-steel-white);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-secondary:hover {
+    border-color: var(--color-electric-purple);
+    color: var(--color-electric-purple);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+}
+
+.btn-danger {
+    background: rgba(255, 70, 70, 0.1);
+    color: var(--color-threat-red);
+    border-color: var(--color-threat-red);
+}
+
+.btn-danger:hover {
+    background: var(--color-threat-red);
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 70, 70, 0.5);
+}

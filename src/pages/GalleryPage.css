@@ -1,0 +1,33 @@
+.gallery-page {
+    padding-top: 100px;
+}
+
+.gallery-event-section {
+    margin-bottom: 5rem;
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+}
+
+.event-title {
+    font-size: 2rem;
+    color: var(--color-steel-white);
+}
+
+.event-date {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+    .event-header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
