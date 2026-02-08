@@ -287,4 +287,10 @@
         word-break: break-word;
         /* Better word breaking for title */
     }
+
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 }
