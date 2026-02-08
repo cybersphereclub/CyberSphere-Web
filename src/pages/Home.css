@@ -171,10 +171,34 @@
     .hero-title {
         font-size: 2rem;
         /* Further reduce for small screens */
+        word-wrap: break-word;
+        /* Ensure valid word breaking */
     }
 
     .hero-container {
         gap: 2rem;
+        padding: 0 1rem;
+        /* Add padding to container to prevent edge touching */
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .code-block {
+        min-width: auto;
+        width: 100%;
+        font-size: 0.8rem;
     }
 }
 
