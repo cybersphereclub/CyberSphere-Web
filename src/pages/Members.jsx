@@ -7,7 +7,7 @@ const Members = () => {
     return (
         <div className="about-page container section page-transition">
             <div className="page-header">
-                <h1>Our <span className="neon-text-purple">Members</span></h1>
+                <h1>Our <span className="neon-text-green">Members</span></h1>
                 <p>Meet the brilliant minds behind Cybersphere.</p>
             </div>
 

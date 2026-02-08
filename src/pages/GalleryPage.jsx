@@ -17,7 +17,7 @@ const GalleryPage = () => {
                     <div key={index} className="gallery-event-section">
                         <div className="event-header">
                             <h2 className="event-title">{event.title}</h2>
-                            <span className="event-date neon-text-purple">{event.date}</span>
+                            <span className="event-date neon-text-green">{event.date}</span>
                         </div>
                         <Gallery images={event.images} />
                     </div>

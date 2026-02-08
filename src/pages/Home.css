@@ -85,8 +85,8 @@
     z-index: 1;
     min-width: 350px;
     background: rgba(0, 0, 0, 0.6);
-    border: 1px solid rgba(168, 85, 247, 0.3);
-    box-shadow: 0 0 30px rgba(168, 85, 247, 0.1);
+    border: 1px solid rgba(0, 255, 65, 0.3);
+    box-shadow: 0 0 30px rgba(0, 255, 65, 0.1);
 }
 
 .code-block pre {
@@ -220,7 +220,7 @@
 .cta-box {
     text-align: center;
     padding: 4rem 2rem;
-    background: linear-gradient(135deg, rgba(93, 93, 255, 0.05) 0%, rgba(168, 85, 247, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(93, 93, 255, 0.05) 0%, rgba(0, 255, 65, 0.05) 100%);
 }
 
 .cta-box h2 {

@@ -52,7 +52,7 @@
 }
 
 .severity-medium {
-    border-left-color: var(--color-electric-purple);
+    border-left-color: var(--color-neon-green);
 }
 
 .severity-low {

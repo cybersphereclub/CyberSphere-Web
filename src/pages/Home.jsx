@@ -30,7 +30,7 @@ const Home = () => {
                             </div>
                             <div className="typing-line">
                                 <span className="static-text">DEFEND THE </span>
-                                <span className="highlight-text neon-text-purple">
+                                <span className="highlight-text neon-text-green">
                                     <TypingEffect text="NETWORK." speed={150} delay={2000} />
                                 </span>
                             </div>

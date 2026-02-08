@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div className="about-page container section page-transition">
             <div className="page-header">
-                <h1>About <span className="neon-text-purple">The Corp</span></h1>
+                <h1>About <span className="neon-text-green">The Corp</span></h1>
                 <p>We are a community of students dedicated to mastering the art of cybersecurity.</p>
             </div>
 
@@ -27,7 +27,7 @@ const About = () => {
             </div>
 
             <section className="team-section">
-                <h2 className="section-title"><Users className="icon-purple" /> Command Center</h2>
+                <h2 className="section-title"><Users className="icon-green" /> Command Center</h2>
                 <div className="team-grid">
                     {members.map((member) => (
                         <Card
