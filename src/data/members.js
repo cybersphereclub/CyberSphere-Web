@@ -122,18 +122,6 @@ export const members = [
     },
     {
         id: 12,
-        name: 'Het Bhatt',
-        role: 'Marketing & Social Media Handler',
-        bio: '',
-        image: '',
-        socials: {
-            linkedin: '#',
-            github: '#',
-        }
-    }
-    ,
-    {
-        id: 13,
         name: 'Geet Sengal',
         role: 'Marketing & Social Media Handler',
         bio: '"Progress begins with the right mindset."',
@@ -141,6 +129,17 @@ export const members = [
         socials: {
             linkedin: 'https://www.linkedin.com/in/geet-sengal-81a9a4384',
             github: 'https://github.com/Geet2701',
+        }
+    },
+    {
+        id: 13,
+        name: 'Het Bhatt',
+        role: 'Marketing & Social Media Handler',
+        bio: '',
+        image: '',
+        socials: {
+            linkedin: '#',
+            github: '#',
         }
     },
     {

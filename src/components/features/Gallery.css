@@ -25,7 +25,7 @@
 
 .gallery-item {
     flex: 0 0 320px;
-    /* Fixed width for items */
+    /* Fixed width for desktop */
     scroll-snap-align: start;
     position: relative;
     border-radius: 12px;
@@ -34,6 +34,13 @@
     cursor: pointer;
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: border-color 0.3s ease;
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        flex: 0 0 85vw;
+        /* Responsive width for mobile */
+    }
 }
 
 .gallery-item:hover {

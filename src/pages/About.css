@@ -4,7 +4,8 @@
 
 .mission-vision-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Reduced min-width */
     gap: 2rem;
     margin-bottom: 4rem;
 }
@@ -36,7 +37,8 @@
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Reduced min-width */
     gap: 3rem;
 }
 
