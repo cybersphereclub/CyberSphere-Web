@@ -69,11 +69,11 @@ export const members = [
         id: 7,
         name: 'Rohan Trivedi',
         role: 'Technical Analyst & Content Head',
-        bio: '',
-        image: '',
+        bio: '"Trust the process…"',
+        image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770559612/1bcb4330-3dc2-45d2-a1f8-71ffe756dbd1.png',
         socials: {
-            linkedin: '#',
-            github: '#',
+            linkedin: 'http://www.linkedin.com/in/rohan-trivedi-29215028b',
+            github: 'https://github.com/RohanTrivedi09',
         }
     },
     {
@@ -135,11 +135,11 @@ export const members = [
         id: 13,
         name: 'Het Bhatt',
         role: 'Marketing & Social Media Handler',
-        bio: '',
-        image: '',
+        bio: '"In the middle of difficulty lies opportunity" - Albert Einstein',
+        image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770559810/3fb5fcc0-9376-43bf-bec0-c4aad9a36e8b.png',
         socials: {
-            linkedin: '#',
-            github: '#',
+            linkedin: 'https://www.linkedin.com/in/het-bhatt-19438a324',
+            github: 'https://github.com/Bhatt7710',
         }
     },
     {
@@ -147,10 +147,10 @@ export const members = [
         name: 'Dhruv Trivedi',
         role: 'Marketing & Social Media Handler',
         bio: '',
-        image: '',
+        image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770559996/041ff163-b784-4ea3-8734-a2db5d508d23.png',
         socials: {
-            linkedin: '#',
-            github: '#',
+            linkedin: 'https://www.linkedin.com/in/dhruv-trivedi-33a40238a',
+            github: 'https://github.com/dhruv1047',
         }
     }
 ];
