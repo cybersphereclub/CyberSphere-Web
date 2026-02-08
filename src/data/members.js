@@ -91,11 +91,11 @@ export const members = [
         id: 9,
         name: 'Prem Patel',
         role: 'Tech Lead',
-        bio: ' ',
-        image: '',
+        bio: '"Hard work beats talent when talent doesn\'t work hard." — Tim Notke ',
+        image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770572221/86423cd9-67e5-48b7-bc03-e20eaee46175.png',
         socials: {
-            linkedin: '#',
-            github: '#',
+            linkedin: 'https://www.linkedin.com/in/prem-patel-901637345',
+            github: 'https://github.com/Premp9107',
         }
     },
     {
@@ -105,8 +105,8 @@ export const members = [
         bio: '',
         image: '',
         socials: {
-            linkedin: '#',
-            github: '#',
+            linkedin: 'https://www.linkedin.com/in/anshul-rathod-295060333',
+            github: 'https://github.com/AXG-Kingsman',
         }
     },
     {
