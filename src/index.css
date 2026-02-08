@@ -131,9 +131,9 @@ a:hover {
   text-shadow: var(--glow-blue);
 }
 
-.neon-text-purple {
-  color: var(--color-electric-purple);
-  text-shadow: var(--glow-purple);
+.neon-text-green {
+  color: var(--color-neon-green) !important;
+  text-shadow: var(--glow-green);
 }
 
 .neon-text-red {
@@ -173,7 +173,7 @@ a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-electric-purple);
+  background: var(--color-neon-green);
   border-radius: 4px;
 }
 
