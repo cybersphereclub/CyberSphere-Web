@@ -58,11 +58,11 @@ export const members = [
         id: 6,
         name: 'Yash Rathi',
         role: 'Technical Analyst & Content Head',
-        bio: '',
-        image: '',
+        bio: '"Power comes from discipline.” - Chanakya',
+        image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770629644/2bcc43b2-6d09-4b21-bb6a-c42a0b66476d.png',
         socials: {
-            linkedin: '#',
-            github: '#',
+            linkedin: 'https://www.linkedin.com/in/yash-rathi-549334286',
+            github: '',
         }
     },
     {
