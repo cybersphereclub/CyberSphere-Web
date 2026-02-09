@@ -32,14 +32,14 @@
     background: var(--color-cyber-blue);
     color: white;
     border-color: var(--color-cyber-blue);
-    box-shadow: 0 0 10px rgba(76, 131, 198, 0.3);
+    box-shadow: 0 0 10px rgba(93, 93, 255, 0.3);
 }
 
 .btn-primary:hover {
     background: transparent;
     color: var(--color-cyber-blue);
-    box-shadow: 0 0 20px rgba(76, 131, 198, 0.6);
-    text-shadow: 0 0 5px rgba(76, 131, 198, 0.4);
+    box-shadow: 0 0 20px rgba(93, 93, 255, 0.6);
+    text-shadow: 0 0 5px rgba(93, 93, 255, 0.4);
 }
 
 .btn-secondary {
