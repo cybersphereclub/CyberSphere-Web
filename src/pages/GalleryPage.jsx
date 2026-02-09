@@ -1,3 +1,4 @@
+import SEO from '../components/common/SEO';
 import Gallery from '../components/features/Gallery';
 import './GalleryPage.css';
 
@@ -7,6 +8,11 @@ const GalleryPage = () => {
 
     return (
         <div className="gallery-page container section page-transition">
+            <SEO
+                title="Gallery"
+                description="Visual records of our workshops, CTFs, and community events."
+                url="/gallery"
+            />
             <div className="page-header">
                 <h1>Visual <span className="neon-text-blue">Records</span></h1>
                 <p>Archive of our operations, missions, and community events.</p>

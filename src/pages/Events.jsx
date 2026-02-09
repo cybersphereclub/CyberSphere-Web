@@ -1,3 +1,4 @@
+import SEO from '../components/common/SEO';
 import EventCard from '../components/features/EventCard';
 import './Events.css';
 
@@ -12,6 +13,11 @@ const Events = () => {
 
     return (
         <div className="events-page container section page-transition">
+            <SEO
+                title="Events & Workshops"
+                description="Join upcoming cybersecurity workshops, CTFs, and seminars at Adani University."
+                url="/events"
+            />
             <div className="page-header">
                 <h1>Mission <span className="neon-text-blue">Log</span></h1>
                 <p>Upcoming operations and archive of past deployments.</p>

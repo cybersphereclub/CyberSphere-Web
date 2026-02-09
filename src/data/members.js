@@ -14,7 +14,7 @@ export const members = [
         id: 2,
         name: 'Ved Parmar',
         role: 'Club Co-Lead',
-        bio: '',
+        bio: 'DREAM IT, WORK IT , ACHIVE IT',
         image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770565220/d8b22a56-3757-49ca-917c-6b8f401d51b1.png',
         socials: {
             linkedin: 'https://www.linkedin.com/in/ved-parmar-474b28349',

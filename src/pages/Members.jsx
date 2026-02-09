@@ -1,3 +1,4 @@
+import SEO from '../components/common/SEO';
 import Card from '../components/common/Card';
 import { members } from '../data/members';
 import { Linkedin, Github, Twitter } from 'lucide-react';
@@ -6,6 +7,11 @@ import './About.css'; // Reusing About styles for consistency
 const Members = () => {
     return (
         <div className="about-page container section page-transition">
+            <SEO
+                title="The Team"
+                description="Meet the core team members and security researchers behind Cybersphere."
+                url="/members"
+            />
             <div className="page-header">
                 <h1>Our <span className="neon-text-green">Team</span></h1>
                 <p>Meet the brilliant minds behind Cybersphere.</p>

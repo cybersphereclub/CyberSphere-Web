@@ -1,3 +1,4 @@
+import SEO from '../components/common/SEO';
 import Card from '../components/common/Card';
 import { Target, Eye, Users, Linkedin, Github, Twitter } from 'lucide-react';
 import './About.css';
@@ -8,6 +9,11 @@ const About = () => {
 
     return (
         <div className="about-page container section page-transition">
+            <SEO
+                title="About Us"
+                description="Learn about Cybersphere's mission, vision, and the team driving cybersecurity excellence at Adani University."
+                url="/about"
+            />
             <div className="page-header">
                 <h1>About <span className="neon-text-green">The Corp</span></h1>
                 <p>We are a community of students dedicated to mastering the art of cybersecurity.</p>

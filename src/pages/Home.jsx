@@ -2,6 +2,7 @@ import Button from '../components/common/Button';
 import TypingEffect from '../components/common/TypingEffect';
 import StatsSection from '../components/features/StatsSection';
 import EventCard from '../components/features/EventCard'; // Fixed import path
+import SEO from '../components/common/SEO';
 import { ArrowRight, Shield, Terminal } from 'lucide-react';
 import './Home.css';
 
@@ -14,8 +15,25 @@ const Home = () => {
         .sort((a, b) => new Date(a.date) - new Date(b.date))
         .slice(0, 3);
 
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cybersphere Adani University",
+        "url": "https://cybersphere.club",
+        "logo": "https://cybersphere.club/logo.png",
+        "description": "The official cybersecurity club of Adani University.",
+        "sameAs": [
+            "https://www.instagram.com/cybersphere_au",
+            "https://www.linkedin.com/company/cybersphere-au"
+        ]
+    };
+
     return (
         <div className="home-page page-transition">
+            <SEO
+                title="Home"
+                schema={schema}
+            />
             {/* Hero Section */}
             <section className="hero-section">
                 <div className="container hero-container">
