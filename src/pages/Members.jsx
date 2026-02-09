@@ -1,13 +1,13 @@
 import Card from '../components/common/Card';
 import { members } from '../data/members';
-import { Users, Linkedin, Github, Twitter } from 'lucide-react';
+import { Linkedin, Github, Twitter } from 'lucide-react';
 import './About.css'; // Reusing About styles for consistency
 
 const Members = () => {
     return (
         <div className="about-page container section page-transition">
             <div className="page-header">
-                <h1>Our <span className="neon-text-green">Members</span></h1>
+                <h1>Our <span className="neon-text-green">Team</span></h1>
                 <p>Meet the brilliant minds behind Cybersphere.</p>
             </div>
 

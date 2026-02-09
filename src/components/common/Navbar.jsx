@@ -60,7 +60,7 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <a href="#join" target="_blank" className="btn-primary mobile-btn" onClick={() => setIsOpen(false)}>Join Us</a>
+          <a href="https://linktr.ee/cybersphere_au" target="_blank" className="btn-primary mobile-btn" onClick={() => setIsOpen(false)}>Join Us</a>
         </div>
       )}
     </nav>
