@@ -47,7 +47,7 @@ export const members = [
         id: 5,
         name: 'Kalpin Patel',
         role: 'Technical Analyst & Content Head',
-        bio: '',
+        bio: '"You have to believe in yourself when no one else does"',
         image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770549187/dbb35bea-98a2-4efe-b9f5-f54d2ef25d76.png',
         socials: {
             linkedin: 'https://www.linkedin.com/in/kalpin-patel-5644762a8',
@@ -102,7 +102,7 @@ export const members = [
         id: 10,
         name: 'Anshul Rathod',
         role: 'Tech Lead',
-        bio: '',
+        bio: '"Be curious, Not Judgmental." - Anshul Rathod',
         image: '',
         socials: {
             linkedin: 'https://www.linkedin.com/in/anshul-rathod-295060333',
@@ -114,10 +114,10 @@ export const members = [
         name: 'Harsh Vadodariya',
         role: 'Events & Communication',
         bio: '',
-        image: '',
+        image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770616644/583dcda9-1d39-4160-8dba-cf3c45eb96e8.png',
         socials: {
-            linkedin: '#',
-            github: '#',
+            linkedin: 'https://www.linkedin.com/in/harsh-vadodariya-771b492b7',
+            github: 'https://github.com/HarshVadodariya',
         }
     },
     {
@@ -146,7 +146,7 @@ export const members = [
         id: 14,
         name: 'Dhruv Trivedi',
         role: 'Marketing & Social Media Handler',
-        bio: '',
+        bio: '"Be kind"',
         image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770559996/041ff163-b784-4ea3-8734-a2db5d508d23.png',
         socials: {
             linkedin: 'https://www.linkedin.com/in/dhruv-trivedi-33a40238a',
