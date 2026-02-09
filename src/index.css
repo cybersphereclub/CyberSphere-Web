@@ -1,15 +1,21 @@
 :root {
   /* Color Palette */
   --bg-deep-space: #0B0E14;
-  --color-cyber-blue: #5D5DFF;
+  --color-cyber-blue: #4C83C6;
+  /* Cyber Blue */
+
+
   --color-threat-red: #FF4646;
   --color-neon-green: #00FF41;
   /* Updated from Purple */
+
   --color-steel-white: #E2E8F0;
   --color-dark-overlay: rgba(11, 14, 20, 0.8);
+  /* Updated to match new bg */
 
   /* Neon Glows */
-  --glow-blue: 0 0 10px rgba(93, 93, 255, 0.5), 0 0 20px rgba(93, 93, 255, 0.3);
+  --glow-blue: 0 0 10px rgba(76, 131, 198, 0.5), 0 0 20px rgba(76, 131, 198, 0.3);
+  /* Aqua Blue Glow */
   --glow-green: 0 0 10px rgba(0, 255, 65, 0.5), 0 0 20px rgba(0, 255, 65, 0.3);
   /* Updated from Purple */
   --glow-red: 0 0 10px rgba(255, 70, 70, 0.5), 0 0 20px rgba(255, 70, 70, 0.3);

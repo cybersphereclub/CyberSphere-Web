@@ -102,7 +102,7 @@ export const members = [
         id: 10,
         name: 'Anshul Rathod',
         role: 'Tech Lead',
-        bio: '"Be curious, Not Judgmental." - Anshul Rathod',
+        bio: '"Be curious, Not Judgmental." - Walt Whitman',
         image: '',
         socials: {
             linkedin: 'https://www.linkedin.com/in/anshul-rathod-295060333',
