@@ -14,7 +14,7 @@ export const members = [
         id: 2,
         name: 'Ved Parmar',
         role: 'Club Co-Lead',
-        bio: 'DREAM IT, WORK IT , ACHIVE IT',
+        bio: '"DREAM IT, WORK IT , ACHIVE IT"',
         image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770565220/d8b22a56-3757-49ca-917c-6b8f401d51b1.png',
         socials: {
             linkedin: 'https://www.linkedin.com/in/ved-parmar-474b28349',
@@ -25,7 +25,7 @@ export const members = [
         id: 3,
         name: 'Kush Sojitra',
         role: 'Technical Analyst & Content Head',
-        bio: 'If you think adventure is dangerous try routine it is lethal',
+        bio: '"If you think adventure is dangerous try routine it is lethal"',
         image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770735617/fc7c6a73-fcc5-424a-b2ff-69bc4e31bff2.png',
         socials: {
             linkedin: 'https://www.linkedin.com/in/kush-sojitra-4349b1282/',
