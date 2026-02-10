@@ -20,7 +20,7 @@ const Home = () => {
         "@type": "Organization",
         "name": "Cybersphere Adani University",
         "url": "https://cybersphere.club",
-        "logo": "https://cybersphere.club/logo.png",
+        "logo": "https://cybersphere.club/logonew.png",
         "description": "The official cybersecurity club of Adani University.",
         "sameAs": [
             "https://www.instagram.com/cybersphere_au",

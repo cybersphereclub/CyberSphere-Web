@@ -1,5 +1,5 @@
 import { Linkedin, Instagram, MessageCircle } from 'lucide-react';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logonew.png';
 import './Footer.css';
 
 const Footer = () => {

@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 const SEO = ({ title, description, keywords, image, url, schema }) => {
     const siteTitle = "Cybersphere | Cybersecurity Club Adani University";
     const defaultDescription = "Cybersphere is the official cybersecurity club of Adani University, dedicated to fostering a community of security enthusiasts.";
-    const defaultImage = "/logo.png";
+    const defaultImage = "/logonew.png";
     const siteUrl = "https://cybersphere.club";
 
     const finalTitle = title ? `${title} | Cybersphere` : siteTitle;
