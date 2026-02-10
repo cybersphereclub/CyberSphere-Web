@@ -25,11 +25,11 @@ export const members = [
         id: 3,
         name: 'Kush Sojitra',
         role: 'Technical Analyst & Content Head',
-        bio: '',
-        image: '',
+        bio: 'If you think adventure is dangerous try routine it is lethal',
+        image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770735617/fc7c6a73-fcc5-424a-b2ff-69bc4e31bff2.png',
         socials: {
-            linkedin: '#',
-            github: '#',
+            linkedin: 'https://www.linkedin.com/in/kush-sojitra-4349b1282/',
+            github: 'https://github.com/kush2811',
         }
     },
     {
