@@ -5,7 +5,7 @@ import { Calendar, MapPin, Clock } from 'lucide-react';
 import './EventCard.css';
 
 const EventCard = ({ event, showCountdown = false }) => {
-    const { title, date, time, location, image, description, link, status } = event;
+    const { title, date, time, location, image, description, link, status, resourceLink } = event;
     const isPast = status === 'past';
 
     // Combine date and time for countdown
@@ -50,7 +50,20 @@ const EventCard = ({ event, showCountdown = false }) => {
 
                 <div className="event-actions">
                     {isPast ? (
-                        <p className="event-ended-msg">This event has ended.</p>
+                        resourceLink ? (
+                            <Button
+                                href={resourceLink}
+                                target="_blank"
+                                variant="secondary"
+                                className="event-btn w-full"
+                            >
+                                <span className="flex items-center gap-2">
+                                    Get Resources
+                                </span>
+                            </Button>
+                        ) : (
+                            <p className="event-ended-msg">This event has ended.</p>
+                        )
                     ) : (
                         <Button
                             variant="primary"
