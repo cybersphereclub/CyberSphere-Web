@@ -113,7 +113,7 @@ export const members = [
         id: 11,
         name: 'Harsh Vadodariya',
         role: 'Events & Communication',
-        bio: '',
+        bio: '"Behind every secure system is a vigilant mind"',
         image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770616644/583dcda9-1d39-4160-8dba-cf3c45eb96e8.png',
         socials: {
             linkedin: 'https://www.linkedin.com/in/harsh-vadodariya-771b492b7',

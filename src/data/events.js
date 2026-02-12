@@ -9,6 +9,6 @@ export const events = [
         description: 'Dive into the world of OSINT, digital footprints, and ethical hacking! Learn how your online presence can be tracked, how hackers think, and how ethical practices keep cyberspace safe. A fun, hands-on intro for students who want to explore the building blocks of cybersecurity!',
         link: '#',
         status: 'past',
-        resourceLink: 'https://docs.google.com/presentation/d/1...' // Add your resource link here
+        resourceLink: 'https://drive.google.com/drive/folders/1Pw_mKhecYfACjmOUBB2XuguoRVHqwm4u' // Add your resource link here
     }
 ];
