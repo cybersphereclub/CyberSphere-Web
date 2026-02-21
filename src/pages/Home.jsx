@@ -15,24 +15,12 @@ const Home = () => {
         .sort((a, b) => new Date(a.date) - new Date(b.date))
         .slice(0, 3);
 
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Cybersphere Adani University",
-        "url": "https://cybersphere.club",
-        "logo": "https://cybersphere.club/logonew.png",
-        "description": "The official cybersecurity club of Adani University.",
-        "sameAs": [
-            "https://www.instagram.com/cybersphere_au",
-            "https://www.linkedin.com/company/cybersphere-au"
-        ]
-    };
-
     return (
         <div className="home-page page-transition">
             <SEO
-                title="Home"
-                schema={schema}
+                title="Ultimate Cybersecurity Club @ Adani University"
+                description="Join Cybersphere, the premier cybersecurity community at Adani University, Ahmedabad. Explore ethical hacking, workshops, and networking with security experts."
+                keywords="Cybersphere, Cybersecurity Club Ahmedabad, Adani University Tech, Ethical Hacking Gujarat, Security Research India"
             />
             {/* Hero Section */}
             <section className="hero-section">

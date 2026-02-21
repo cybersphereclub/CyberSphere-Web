@@ -8,8 +8,9 @@ const Members = () => {
     return (
         <div className="about-page container section page-transition">
             <SEO
-                title="The Team"
-                description="Meet the core team members and security researchers behind Cybersphere."
+                title="The Command Center | Core Team"
+                description="Meet the expert security researchers and student leaders behind Cybersphere, Adani University's premier cybersecurity club."
+                keywords="Cybersphere Team, Cybersecurity Researchers Ahmedabad, Ethical Hackers Adani University, Security Club Leaders"
                 url="/members"
             />
             <div className="page-header">

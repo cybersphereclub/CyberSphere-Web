@@ -10,8 +10,9 @@ const About = () => {
     return (
         <div className="about-page container section page-transition">
             <SEO
-                title="About Us"
-                description="Learn about Cybersphere's mission, vision, and the team driving cybersecurity excellence at Adani University."
+                title="About Cybersphere | Mission & Team"
+                description="Discover Cybersphere at Adani University: Our mission to build a secure digital future and the command center driving cybersecurity innovation in Ahmedabad."
+                keywords="Cybersphere Mission, Adani University Cybersecurity, Ahmedabad Hacking Club, Security Education India"
                 url="/about"
             />
             <div className="page-header">

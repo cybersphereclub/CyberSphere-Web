@@ -2,22 +2,67 @@ import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, keywords, image, url, schema }) => {
     const siteTitle = "Cybersphere | Cybersecurity Club Adani University";
-    const defaultDescription = "Cybersphere is the official cybersecurity club of Adani University, dedicated to fostering a community of security enthusiasts.";
-    const defaultImage = "/logonew.png";
+    const defaultDescription = "Cybersphere is the official cybersecurity club of Adani University, Ahmedabad. We foster a community of security enthusiasts and ethical hackers.";
+    const defaultKeywords = "cybersecurity, club, adani university, hacking, network security, ethical hacking, Ahmedabad, Gujarat, security researchers, CTF india";
     const siteUrl = "https://cybersphere.club";
+    const defaultImage = "/logonew.png";
 
     const finalTitle = title ? `${title} | Cybersphere` : siteTitle;
     const finalDescription = description || defaultDescription;
     const finalImage = image ? `${siteUrl}${image}` : `${siteUrl}${defaultImage}`;
     const finalUrl = url ? `${siteUrl}${url}` : siteUrl;
 
+    // Base Organization Schema
+    const organizationSchema = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cybersphere",
+        "alternateName": "Cybersphere AU",
+        "url": siteUrl,
+        "logo": `${siteUrl}${defaultImage}`,
+        "sameAs": [
+            "https://www.linkedin.com/company/cybersphere-au/",
+            "https://github.com/cybersphere-au"
+        ]
+    };
+
+    // Local Business / Educational Organization Schema for Geo-targeting
+    const localBusinessSchema = {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Cybersphere | Cybersecurity Club",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ahmedabad",
+            "addressRegion": "Gujarat",
+            "addressCountry": "IN",
+            "streetAddress": "Adani University, Shantigram"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "23.1887",
+            "longitude": "72.5401"
+        },
+        "url": siteUrl,
+        "parentOrganization": {
+            "@type": "CollegeOrUniversity",
+            "name": "Adani University"
+        }
+    };
+
     return (
         <Helmet>
             {/* Basic Meta Tags */}
             <title>{finalTitle}</title>
             <meta name="description" content={finalDescription} />
-            <meta name="keywords" content={keywords || "cybersecurity, club, adani university, hacking, network security, ethical hacking"} />
+            <meta name="keywords" content={keywords || defaultKeywords} />
             <link rel="canonical" href={finalUrl} />
+
+            {/* Geo-targeting Meta Tags (Critical for local/regional search) */}
+            <meta name="geo.region" content="IN-GJ" />
+            <meta name="geo.placename" content="Ahmedabad" />
+            <meta name="geo.position" content="23.1887;72.5401" />
+            <meta name="ICBM" content="23.1887, 72.5401" />
 
             {/* Open Graph (Facebook, LinkedIn) */}
             <meta property="og:type" content="website" />
@@ -33,7 +78,13 @@ const SEO = ({ title, description, keywords, image, url, schema }) => {
             <meta name="twitter:description" content={finalDescription} />
             <meta name="twitter:image" content={finalImage} />
 
-            {/* Structured Data (JSON-LD) for GEO */}
+            {/* Structured Data (JSON-LD) */}
+            <script type="application/ld+json">
+                {JSON.stringify(organizationSchema)}
+            </script>
+            <script type="application/ld+json">
+                {JSON.stringify(localBusinessSchema)}
+            </script>
             {schema && (
                 <script type="application/ld+json">
                     {JSON.stringify(schema)}
