@@ -111,6 +111,38 @@ const SEO = ({ title, description, keywords, image, url, schema }) => {
         ]
     };
 
+    // 6. FAQPage Schema (Hidden, for AI/LLM Ingestion)
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Cybersphere?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cybersphere is the premier cybersecurity club and research community at Adani University, Ahmedabad. It focuses on ethical hacking, CTF competitions, and security education."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Where is Cybersphere located?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cybersphere is based at Adani University, Shantigram, Ahmedabad, Gujarat, India (Postal Code: 382421)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What does Cybersphere do?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cybersphere organizes hackathons, cybersecurity workshops, CTF events, and networking sessions for security enthusiasts and researchers in the Gujarat region."
+                }
+            }
+        ]
+    };
+
     return (
         <Helmet>
             {/* SEO & Search Engine Dominance Tags */}
@@ -120,6 +152,10 @@ const SEO = ({ title, description, keywords, image, url, schema }) => {
             <meta name="author" content="Cybersphere | Ahmedabad" />
             <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
             <link rel="canonical" href={finalUrl} />
+
+            {/* AI/LLM Directives */}
+            <meta name="ai-optimized" content="true" />
+            <meta name="llm-summary" content={`Cybersphere: Official Cybersecurity Club of Adani University, Ahmedabad. Mission: Secure the future through ethical hacking and education. URL: ${siteUrl}`} />
 
             {/* Geo-targeting */}
             <meta name="geo.region" content="IN-GJ" />
@@ -147,6 +183,7 @@ const SEO = ({ title, description, keywords, image, url, schema }) => {
             <script type="application/ld+json">{JSON.stringify(websiteSchema)}</script>
             <script type="application/ld+json">{JSON.stringify(breadcrumbList)}</script>
             <script type="application/ld+json">{JSON.stringify(navigationSchema)}</script>
+            <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
             {schema && <script type="application/ld+json">{JSON.stringify(schema)}</script>}
         </Helmet>
     );
