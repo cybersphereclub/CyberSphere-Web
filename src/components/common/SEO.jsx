@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 const SEO = ({ title, description, keywords, image, url, schema }) => {
     const siteTitle = "Cybersphere | Cybersecurity Club Adani University";
     const defaultDescription = "Cybersphere is the official cybersecurity club of Adani University, Ahmedabad. We foster a community of security enthusiasts and ethical hackers.";
-    const defaultKeywords = "cybersecurity, club, adani university, hacking, network security, ethical hacking, Ahmedabad, Gujarat, security researchers, CTF india";
+    const defaultKeywords = "cybersecurity, club, adani university, hacking, network security, ethical hacking, Ahmedabad, Gujarat, security researchers, CTF india, Gandhinagar, Bopal, Vastrapur, Satellite Ahmedabad, Gota, Chandkheda, Prahlad Nagar, GIFT City";
     const siteUrl = "https://cybersphere.club";
     const defaultImage = "/logonew.png";
 
@@ -26,6 +26,12 @@ const SEO = ({ title, description, keywords, image, url, schema }) => {
         ]
     };
 
+    // Regional Postal Codes for Ahmedabad and Gandhinagar
+    const regionalPostalCodes = [
+        "380001", "380015", "380051", "380054", "380058", "382443", "382424", "382421", // Ahmedabad
+        "382010", "382007", "382016", "382024", "382355", "382421" // Gandhinagar & Surrounds
+    ];
+
     // Local Business / Educational Organization Schema for Geo-targeting
     const localBusinessSchema = {
         "@context": "https://schema.org",
@@ -36,6 +42,7 @@ const SEO = ({ title, description, keywords, image, url, schema }) => {
             "addressLocality": "Ahmedabad",
             "addressRegion": "Gujarat",
             "addressCountry": "IN",
+            "postalCode": "382421",
             "streetAddress": "Adani University, Shantigram"
         },
         "geo": {
@@ -43,6 +50,26 @@ const SEO = ({ title, description, keywords, image, url, schema }) => {
             "latitude": "23.1887",
             "longitude": "72.5401"
         },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Ahmedabad",
+                "sameAs": "https://en.wikipedia.org/wiki/Ahmedabad"
+            },
+            {
+                "@type": "City",
+                "name": "Gandhinagar",
+                "sameAs": "https://en.wikipedia.org/wiki/Gandhinagar"
+            },
+            ...regionalPostalCodes.map(code => ({
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "postalCode": code,
+                    "addressCountry": "IN"
+                }
+            }))
+        ],
         "url": siteUrl,
         "parentOrganization": {
             "@type": "CollegeOrUniversity",
