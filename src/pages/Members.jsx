@@ -2,7 +2,7 @@ import SEO from '../components/common/SEO';
 import Card from '../components/common/Card';
 import { members } from '../data/members';
 import { Linkedin, Github, Twitter } from 'lucide-react';
-import './About.css'; // Reusing About styles for consistency
+import './Members.css'; // Dedicated styles for Members page
 
 const Members = () => {
     return (

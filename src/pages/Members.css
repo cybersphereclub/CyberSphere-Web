@@ -2,66 +2,32 @@
     padding-top: 100px;
 }
 
-.mission-vision-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    /* Reduced min-width */
-    gap: 2rem;
+.page-header {
+    text-align: center;
     margin-bottom: 4rem;
 }
 
-.mv-card {
-    text-align: center;
-    padding: 3rem 2rem;
-}
-
-.mv-icon {
-    margin-bottom: 1.5rem;
-}
-
-.mv-card h3 {
-    font-size: 1.5rem;
+.page-header h1 {
+    font-size: 3rem;
     margin-bottom: 1rem;
-    color: var(--color-steel-white);
 }
 
-.mv-card p {
+.page-header p {
     color: #94a3b8;
-    line-height: 1.7;
+    font-size: 1.1rem;
 }
 
-/* Team Section */
 .team-section {
     width: 100%;
 }
 
-/* Team Section Scroller */
-.team-scroller {
-    width: 100%;
-    overflow: hidden;
-    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
-    padding: 1rem 0;
-}
-
-.team-track {
-    display: flex;
-    width: max-content;
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 3rem;
-    animation: scroll 40s linear infinite;
-}
-
-.team-track:hover {
-    animation-play-state: paused;
-}
-
-@keyframes scroll {
-    to {
-        transform: translateX(calc(-50% - 1.5rem));
-    }
 }
 
 .team-card {
-    flex: 0 0 320px;
     text-align: center;
     padding: 3rem;
     display: flex;
@@ -73,7 +39,6 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Ensure hover effect doesn't get cut off */
 .team-card:hover {
     transform: translateY(-5px);
     border-color: var(--color-neon-green);

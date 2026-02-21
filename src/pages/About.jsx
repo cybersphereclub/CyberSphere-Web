@@ -34,25 +34,45 @@ const About = () => {
 
             <section className="team-section">
                 <h2 className="section-title"><Users className="icon-green" /> Command Center</h2>
-                <div className="team-grid">
-                    {members.map((member) => (
-                        <Card
-                            key={member.id}
-                            className="team-card animate-fade-up"
-                            hoverEffect={true}
-                            style={{ animationDelay: `${member.id * 100}ms` }}
-                        >
-                            <img src={member.image} alt={member.name} className="team-avatar" />
-                            <h3 className="team-name">{member.name}</h3>
-                            <span className="team-role neon-text-blue">{member.role}</span>
-                            <p className="team-bio">{member.bio}</p>
-                            <div className="team-socials">
-                                {member.socials.linkedin && <a href={member.socials.linkedin} target="_blank" rel="noreferrer"><Linkedin size={20} /></a>}
-                                {member.socials.github && <a href={member.socials.github} target="_blank" rel="noreferrer"><Github size={20} /></a>}
-                                {member.socials.twitter && <a href={member.socials.twitter} target="_blank" rel="noreferrer"><Twitter size={20} /></a>}
-                            </div>
-                        </Card>
-                    ))}
+                <div className="team-scroller">
+                    <div className="team-track">
+                        {/* Original Set */}
+                        {members.map((member) => (
+                            <Card
+                                key={`original-${member.id}`}
+                                className="team-card"
+                                hoverEffect={true}
+                            >
+                                <img src={member.image} alt={member.name} className="team-avatar" />
+                                <h3 className="team-name">{member.name}</h3>
+                                <span className="team-role neon-text-blue">{member.role}</span>
+                                <p className="team-bio">{member.bio}</p>
+                                <div className="team-socials">
+                                    {member.socials.linkedin && <a href={member.socials.linkedin} target="_blank" rel="noreferrer"><Linkedin size={20} /></a>}
+                                    {member.socials.github && <a href={member.socials.github} target="_blank" rel="noreferrer"><Github size={20} /></a>}
+                                    {member.socials.twitter && <a href={member.socials.twitter} target="_blank" rel="noreferrer"><Twitter size={20} /></a>}
+                                </div>
+                            </Card>
+                        ))}
+                        {/* Duplicate Set for Loop */}
+                        {members.map((member) => (
+                            <Card
+                                key={`duplicate-${member.id}`}
+                                className="team-card"
+                                hoverEffect={true}
+                            >
+                                <img src={member.image} alt={member.name} className="team-avatar" />
+                                <h3 className="team-name">{member.name}</h3>
+                                <span className="team-role neon-text-blue">{member.role}</span>
+                                <p className="team-bio">{member.bio}</p>
+                                <div className="team-socials">
+                                    {member.socials.linkedin && <a href={member.socials.linkedin} target="_blank" rel="noreferrer"><Linkedin size={20} /></a>}
+                                    {member.socials.github && <a href={member.socials.github} target="_blank" rel="noreferrer"><Github size={20} /></a>}
+                                    {member.socials.twitter && <a href={member.socials.twitter} target="_blank" rel="noreferrer"><Twitter size={20} /></a>}
+                                </div>
+                            </Card>
+                        ))}
+                    </div>
                 </div>
             </section>
         </div>
