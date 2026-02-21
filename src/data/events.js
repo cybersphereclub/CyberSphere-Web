@@ -1,7 +1,7 @@
 export const events = [
     {
         id: 1,
-        title: 'Cyber Security Foundation',
+        title: 'Cyber Security Foundation - Module_01',
         date: '2026-02-07',
         location: 'Room 502',
         time: '10:00 AM',

@@ -1,6 +1,6 @@
 export const galleryEvents = [
     {
-        title: "Cyber Security Foundation",
+        title: "Cyber Security Foundation - Module_01",
         date: "07 February 2026",
         images: [
             { src: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770553360/WhatsApp_Image_2026-02-08_at_17.18.38_udgm3t.jpg', caption: 'Housefull Session' },
