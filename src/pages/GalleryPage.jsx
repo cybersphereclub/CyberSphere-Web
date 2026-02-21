@@ -9,7 +9,7 @@ const GalleryPage = () => {
     return (
         <div className="gallery-page container section page-transition">
             <SEO
-                title="Operation Gallery | Mission Records"
+                title="Gallery"
                 description="Explore visual records of Cybersphere's workshops, CTFs, and community events at Adani University. See our ethical hackers in action."
                 keywords="Cybersphere Gallery, Hacking Event Photos, Adani University Tech Gallery, Cybersecurity Workshops Ahmedabad"
                 url="/gallery"

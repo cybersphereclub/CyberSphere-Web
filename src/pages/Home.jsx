@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <div className="home-page page-transition">
             <SEO
-                title="Ultimate Cybersecurity Club @ Adani University"
+                title="Home"
                 description="Join Cybersphere, the premier cybersecurity community at Adani University, Ahmedabad. Explore ethical hacking, workshops, and networking with security experts."
                 keywords="Cybersphere, Cybersecurity Club Ahmedabad, Adani University Tech, Ethical Hacking Gujarat, Security Research India"
             />
