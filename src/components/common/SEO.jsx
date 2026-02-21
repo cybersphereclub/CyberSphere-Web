@@ -79,6 +79,9 @@ const SEO = ({ title, description, keywords, image, url, schema }) => {
 
     return (
         <Helmet>
+            {/* Ownership Verification */}
+            <meta name="google-site-verification" content="8fLzguORaFGXvrCUa4ltCWqO326RBEna7NankxCE5Eg" />
+
             {/* Basic Meta Tags */}
             <title>{finalTitle}</title>
             <meta name="description" content={finalDescription} />
