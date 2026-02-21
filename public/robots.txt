@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cybersphere.club/sitemap.xml
+Sitemap: https://cybersphereclub.vercel.app/sitemap.xml

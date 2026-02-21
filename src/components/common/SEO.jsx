@@ -4,7 +4,7 @@ const SEO = ({ title, description, keywords, image, url, schema }) => {
     const siteTitle = "Cybersphere | Cybersecurity Club Adani University";
     const defaultDescription = "Cybersphere is the official cybersecurity club of Adani University, Ahmedabad. We foster a community of security enthusiasts and ethical hackers.";
     const defaultKeywords = "cybersecurity, club, adani university, hacking, network security, ethical hacking, Ahmedabad, Gujarat, security researchers, CTF india, Gandhinagar, Bopal, Vastrapur, Satellite Ahmedabad, Gota, Chandkheda, Prahlad Nagar, GIFT City";
-    const siteUrl = "https://cybersphere.club";
+    const siteUrl = "https://cybersphereclub.vercel.app";
     const defaultImage = "/logonew.png";
 
     const finalTitle = title ? `${title} | Cybersphere` : siteTitle;
