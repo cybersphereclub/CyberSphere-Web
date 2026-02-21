@@ -23,6 +23,7 @@
     font-weight: 700;
     color: var(--color-steel-white);
     text-decoration: none;
+    transition: font-size 0.3s ease;
 }
 
 .logo-image {
@@ -43,7 +44,7 @@
 .navbar-desktop {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .nav-link {
@@ -145,12 +146,22 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
+    .navbar-desktop {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 958px) {
     .navbar-desktop {
         display: none;
     }
 
     .navbar-mobile-toggle {
         display: block;
+    }
+
+    .navbar-logo {
+        font-size: 1.3rem;
     }
 }
