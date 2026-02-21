@@ -10,8 +10,8 @@ const GalleryPage = () => {
         <div className="gallery-page container section page-transition">
             <SEO
                 title="Gallery"
-                description="Explore visual records of Cybersphere's workshops, CTFs, and community events at Adani University. See our ethical hackers in action."
-                keywords="Cybersphere Gallery, Hacking Event Photos, Adani University Tech Gallery, Cybersecurity Workshops Ahmedabad"
+                description="Visual records of Cybersphere's deployments: CTFs, seminars, and hands-on hacking labs at Adani University. See our mission in action across Gujarat."
+                keywords="Cybersphere Gallery, Hacking Event Photos, Adani University Tech Gallery, Cybersecurity Workshops Ahmedabad, student hacking lab photos"
                 url="/gallery"
             />
             <div className="page-header">

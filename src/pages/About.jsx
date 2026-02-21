@@ -11,8 +11,8 @@ const About = () => {
         <div className="about-page container section page-transition">
             <SEO
                 title="About Us"
-                description="Discover Cybersphere at Adani University: Our mission to build a secure digital future and the command center driving cybersecurity innovation in Ahmedabad."
-                keywords="Cybersphere Mission, Adani University Cybersecurity, Ahmedabad Hacking Club, Security Education India"
+                description="Discover Cybersphere's mission at Adani University: to build a secure digital future through ethics and innovation. The leading community of security researchers and ethical hackers in Ahmedabad."
+                keywords="Cybersphere Mission, Adani University Cybersecurity, Ahmedabad Hacking Club, Security Education India, best cyber security community gujarat, cyber security career india"
                 url="/about"
             />
             <div className="page-header">

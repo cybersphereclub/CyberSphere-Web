@@ -19,8 +19,8 @@ const Home = () => {
         <div className="home-page page-transition">
             <SEO
                 title="Home"
-                description="Join Cybersphere, the premier cybersecurity community at Adani University, Ahmedabad. Explore ethical hacking, workshops, and networking with security experts."
-                keywords="Cybersphere, Cybersecurity Club Ahmedabad, Adani University Tech, Ethical Hacking Gujarat, Security Research India"
+                description="Join Cybersphere, the premier cybersecurity community at Adani University, Ahmedabad. Learn ethical hacking, participate in CTFs, and network with security researchers. The ultimate hub for cyber security education in Gujarat."
+                keywords="Cybersphere, Cybersecurity Club Ahmedabad, Adani University Tech, Ethical Hacking Gujarat, Security Research India, how to learn hacking ahmedabad, ctf india, binary exploitation workshops"
             />
             {/* Hero Section */}
             <section className="hero-section">

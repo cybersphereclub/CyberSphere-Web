@@ -1,0 +1,20 @@
+{
+    "short_name": "Cybersphere",
+    "name": "Cybersphere | Cybersecurity Club",
+    "icons": [
+        {
+            "src": "/logonew.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/logonew.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#0f172a",
+    "background_color": "#0f172a"
+}

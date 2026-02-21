@@ -15,8 +15,8 @@ const Events = () => {
         <div className="events-page container section page-transition">
             <SEO
                 title="Events"
-                description="Stay updated with upcoming hackathons, CTFs, and cybersecurity workshops at Adani University. Explore our mission logs and past deployments."
-                keywords="Cybersecurity Events Ahmedabad, Adani University Workshops, CTF Competitions India, Hacking Seminars"
+                description="Upcoming cybersecurity events, hackathons, and CTFs at Adani University. Join our workshops on web security, network defense, and digital forensics in Ahmedabad."
+                keywords="Cybersecurity Events Ahmedabad, Adani University Workshops, CTF Competitions India, Hacking Seminars, capture the flag india 2026, web security workshop gujarat"
                 url="/events"
             />
             <div className="page-header">
