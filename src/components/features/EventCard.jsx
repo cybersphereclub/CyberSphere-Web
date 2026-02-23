@@ -5,11 +5,30 @@ import { Calendar, MapPin, Clock } from 'lucide-react';
 import './EventCard.css';
 
 const EventCard = ({ event, showCountdown = false }) => {
-    const { title, date, time, location, image, description, link, status, resourceLink } = event;
+    const { title, subtitle, date, time, location, image, description, link, status, resourceLink } = event;
     const isPast = status === 'past';
 
-    // Combine date and time for countdown
-    const eventDateTime = new Date(`${date}T${time || '00:00'}`);
+    // Helper function to parse 12h time format (e.g., "10:00 AM")
+    const parseDateTime = (dateStr, timeStr) => {
+        if (!timeStr) return new Date(`${dateStr}T00:00:00`);
+
+        const [time, modifier] = timeStr.split(' ');
+        let [hours, minutes] = time.split(':');
+
+        if (hours === '12') {
+            hours = '00';
+        }
+
+        if (modifier === 'PM') {
+            hours = parseInt(hours, 10) + 12;
+        }
+
+        // Ensure 24h format has leading zero
+        const formattedHours = hours.toString().padStart(2, '0');
+        return new Date(`${dateStr}T${formattedHours}:${minutes}:00`);
+    };
+
+    const eventDateTime = parseDateTime(date, time);
 
     return (
         <Card className={`event-card ${isPast ? 'event-past' : ''}`} hoverEffect={!isPast}>
@@ -23,6 +42,7 @@ const EventCard = ({ event, showCountdown = false }) => {
 
             <div className="event-content">
                 <h3 className="event-title">{title}</h3>
+                {subtitle && <p className="event-subtitle">{subtitle}</p>}
 
                 <div className="event-meta">
                     <div className="meta-item">

@@ -54,8 +54,16 @@
 
 .event-title {
     font-size: 1.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
     color: var(--color-steel-white);
+}
+
+.event-subtitle {
+    font-size: 1.15rem;
+    color: var(--color-cyber-blue);
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 .event-meta {
