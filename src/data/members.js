@@ -103,7 +103,7 @@ export const members = [
         name: 'Anshul Rathod',
         role: 'Tech Lead',
         bio: '"Be curious, Not Judgmental." - Walt Whitman',
-        image: '',
+        image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1771833314/WhatsApp_Image_2026-02-23_at_12.21.56_jylx23.jpg',
         socials: {
             linkedin: 'https://www.linkedin.com/in/anshul-rathod-295060333',
             github: 'https://github.com/AXG-Kingsman',
