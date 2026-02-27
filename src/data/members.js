@@ -3,11 +3,11 @@ export const members = [
         id: 1,
         name: 'Roshan Patel',
         role: 'Club Lead',
-        bio: '',
+        bio: 'Dreaming big, Building bigger',
         image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770549792/2db4c581-4cee-4bdf-8ded-a3bd4bd78271.png',
         socials: {
-            linkedin: '#',
-            github: '#',
+            linkedin: 'https://www.linkedin.com/in/roshan-patel-2b4197317/',
+            github: 'https://github.com/Roshan3019',
         }
     },
     {
