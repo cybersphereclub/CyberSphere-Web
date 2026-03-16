@@ -9,5 +9,16 @@ export const galleryEvents = [
             { src: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770554012/94cece86-0119-4c90-9978-a5778e7d39a8.png', caption: 'The Team' },
             { src: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770554125/c2402b76-cae7-45f2-bd77-b2377992e351.png', caption: 'The Practical Session' },
         ]
+    },
+    {
+        title: "Cyber Security Foundation - Module_02",
+        date: "28 February 2026",
+        images: [
+            { src: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1773656715/36315588-129b-40ba-9c55-be8eefd190ba.png', caption: 'CYBERSPHERE kicks off with full energy and laptops open' },
+            { src: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1773656453/259e6432-0841-448b-bf9d-aca0b2cab1f2.png', caption: 'Hands on by Rohan Trivedi' },
+            { src: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1773657051/894e89f9-b758-49aa-afb7-7ce615dcbd93.png', caption: 'Doubt Clearing with volunteers' },
+            { src: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1773657145/7a2b0dce-ad27-4b09-94d1-a301cf90f4fc.png', caption: 'Peer to Peer Learning' },
+            { src: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1773656274/3020e3fb-afb4-48b8-81cc-ceebb9b3d711.png', caption: 'Website Debuts' },
+        ]
     }
 ];
