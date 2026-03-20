@@ -34,8 +34,8 @@ export const events = [
         time: '3:00 PM',
         image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770546591/8409b34a-a7ea-45a8-abc7-f7cb972fcd52.png',
         description: 'Dive into the world of network enumeration and ethical hacking! Discover how systems reveal their secrets through DNS, SMB, SNMP, and more. Learn the art of zone transfers, RPC calls, and OS fingerprinting while mastering tools like Enum4linux, Wireshark, and Nmap NSE scripts. This hands-on session is your chance to see how hackers map networks—and how cybersecurity pros stay one step ahead. A practical, engaging module for students eager to explore the building blocks of network security!',
-        link: 'https://forms.gle/qsuNo4i9gFPxntEP8',//registration link
-        status: 'upcoming',
-        resourceLink: '#' //drive link
+        link: '#',//registration link
+        status: 'past',
+        resourceLink: 'https://drive.google.com/drive/folders/1XRcsX5NYaNBV-EyN9YuJz01kubik4AcK' //drive link
     }
 ];

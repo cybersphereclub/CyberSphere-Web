@@ -152,5 +152,16 @@ export const members = [
             linkedin: 'https://www.linkedin.com/in/dhruv-trivedi-33a40238a',
             github: 'https://github.com/dhruv1047',
         }
+    },
+    {
+        id: 15,
+        name: 'Prathm Panchal',
+        role: 'Event Coordinator',
+        bio: '"don\'t hate the player, hate the game"',
+        image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1774000823/image_99286504_1_fr5k3e.png',
+        socials: {
+            linkedin: 'https://www.linkedin.com/in/prathmpanchal369',
+            github: 'https://github.com/prathmpanchal',
+        }
     }
 ];
