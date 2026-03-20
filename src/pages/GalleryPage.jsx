@@ -20,7 +20,7 @@ const GalleryPage = () => {
             </div>
 
             <div className="gallery-feed">
-                {galleryEvents.map((event, index) => (
+                {[...galleryEvents].reverse().map((event, index) => (
                     <div key={index} className="gallery-event-section">
                         <div className="event-header">
                             <h2 className="event-title">{event.title}</h2>

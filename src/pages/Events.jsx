@@ -9,7 +9,7 @@ const Events = () => {
 
 
     const upcoming = events.filter(e => e.status === 'upcoming');
-    const past = events.filter(e => e.status === 'past');
+    const past = events.filter(e => e.status === 'past').reverse();
 
     return (
         <div className="events-page container section page-transition">
