@@ -47,8 +47,8 @@ export const events = [
         time: '3:00 PM',
         image: 'https://res.cloudinary.com/dkzsrm43d/image/upload/v1770546591/8409b34a-a7ea-45a8-abc7-f7cb972fcd52.png',
         description: 'Dive into the world of network defense and active security monitoring! Discover how to fortify systems using the CIA Triad and defend against notorious threats like MITM, DoS, and Spoofing attacks. Learn the art of deploying firewalls, configuring ACLs, and navigating the critical differences between IDS and IPS while mastering essential tools like Wireshark, Snort, and Nmap. This hands-on session is your chance to see how attackers attempt to breach systems—and how cybersecurity pros build resilient defenses to stay one step ahead. A practical, engaging final module for students eager to master the building blocks of network security and earn their certification!',
-        link: 'https://forms.gle/keWTD2zCptx85nw57',//registration link
-        status: 'upcoming',
-        resourceLink: '#' //drive link
+        link: '#',//registration link
+        status: 'past',
+        resourceLink: 'https://drive.google.com/drive/folders/1aXCoOn0t3kSBIL4VNodL-0uOEnkh1FGj' //drive link
     }
 ];
