@@ -32,7 +32,7 @@ const Footer = () => {
                         <div className="social-links">
                             <a href="https://www.linkedin.com/company/cyber-sphere-club" target="_blank" aria-label="LinkedIn"><Linkedin size={20} /></a>
                             <a href="https://www.instagram.com/cybersphere_club" target="_blank" aria-label="Instagram"><Instagram size={20} /></a>
-                            <a href="https://chat.whatsapp.com/G6eQGvsfWGcERCjgI7iTDJ?mode=gi_t" target="_blank" aria-label="WhatsApp"><MessageCircle size={20} /></a>
+                            <a href="https://chat.whatsapp.com/BdyYu9Dg2Dm9noZvzQMrs4" target="_blank" aria-label="WhatsApp"><MessageCircle size={20} /></a>
                         </div>
                     </div>
                 </div>
